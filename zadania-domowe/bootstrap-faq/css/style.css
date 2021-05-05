@@ -1,0 +1,20 @@
+#faq {
+    width: 90%;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-link {
+    color:  rgb(197, 128, 0);
+}
+
+.btn-link:hover {
+    color: gray;
+}
