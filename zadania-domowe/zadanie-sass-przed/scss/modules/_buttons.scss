@@ -1,0 +1,85 @@
+/***/
+/*==========  5.1 - Buttons  ==========*/
+
+.btn-primary {
+	color: $color-text-primary;
+	background-color: $color-link;
+	border-color: $color-link;
+	text-transform: $text-transform-base;
+	padding: 10px 12px;
+	margin-bottom: $baseline;
+}
+
+.btn-primary:hover {
+	color: $color-text-primary-darker;
+	background-color: $color-link-hover;
+	border-color: $color-link-hover;
+}
+
+.btn-default {
+	margin: 5px 5px 5px 0px;
+	color: $color-text-light;
+	background-color: transparent;
+	border-color: $color-text-light;
+}
+
+.btn-default:hover {
+	color: $color-text-light;
+	background-color: transparent;
+	border-color: $color-text-light;
+}
+
+.btn-success {
+	color: $color-text-primary;
+	background-color: $color-link;
+	border-color: $color-link;
+	text-transform: $text-transform-base;
+	padding: 10px 12px;
+}
+
+.btn-success:hover {
+	color: $color-text-primary-darker;
+	background-color: $color-link-hover;
+	border-color: $color-link-hover;
+}
+
+@media(min-width:1200px) {
+	.btn-primary  {
+		color: $color-text-primary-desktop;
+		background-color: $color-link-desktop !important;
+		border-color: $color-link-desktop;
+	}
+
+	.btn-primary:hover {
+		color: $color-text-primary-darker-desktop;
+		background-color: $color-link-hover-desktop !important;
+		border-color: $color-link-hover-desktop;
+	}
+	
+	.btn-default {
+		margin: 5px 5px 5px 0px;
+		color: $color-text-light-desktop;
+		background-color: transparent !important;
+		border-color: $color-text-light-desktop;
+	}
+	
+	.btn-default:hover {
+		color: $color-primary-desktop !important;
+		background-color: transparent !important;
+		border-color: $color-primary-desktop !important;
+	}
+	
+	.btn-success {
+		color: $color-text-primary-desktop;
+		background-color: $color-link-desktop;
+		border-color: $color-link-desktop;
+		text-transform: $text-transform-base;
+		padding: 10px 12px;
+	}
+	
+	.btn-success:hover {
+		color: $color-text-primary-darker-desktop;
+		background-color: $color-link-hover-desktop;
+		border-color: $color-link-hover-desktop;
+	}
+}
